@@ -1,6 +1,6 @@
-# gulp-put
+#gulp-put
 
-## Use
+##Use
 
 This plugin provides an intuitive interface for copying files to a destination directory, while preserving the original directory-structure (relative to `process.cwd()`).  Use like:
 
@@ -15,11 +15,11 @@ gulp.task('your-task', function() {
 
 Done!
 
-## Installation
+##Installation
 
 `npm install --save-dev gulp-put` or `npm install --save-dev jrop/gulp-put`
 
-## License
+##License
 
 MIT License
 Copyright (c) 2015 Jonathan Apodaca
