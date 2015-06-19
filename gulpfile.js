@@ -21,7 +21,7 @@ gulp.task('test', [ 'default' ], function() {
 			'package.json',
 			'**/*.txt'
 			//'node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.templatesettings/LICENSE.txt'
-		])
+		], { read: false })
 		.pipe(put('out'))
 		.pipe(print())
 })

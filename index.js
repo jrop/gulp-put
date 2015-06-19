@@ -22,8 +22,6 @@ module.exports = function (destinationDirectoryName) {
 	if (!destinationDirectoryName) throw new _gulpUtil.PluginError('gulp-put', 'Missing destination directory name!');
 
 	var copyFile = function copyFile(file, enc, cb) {
-		if (file.isNull()) return cb(null, file);
-
 		var relativePath = path.relative(process.cwd(), file.path);
 		var destPath = path.join(destinationDirectoryName, relativePath);
 

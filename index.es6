@@ -9,9 +9,6 @@ module.exports = (destinationDirectoryName) => {
 		throw new PluginError('gulp-put', 'Missing destination directory name!')
 
 	let copyFile = (file, enc, cb) => {
-		if (file.isNull())
-			return cb(null, file)
-
 		let relativePath = path.relative(process.cwd(), file.path)
 		let destPath = path.join(destinationDirectoryName, relativePath)
 
