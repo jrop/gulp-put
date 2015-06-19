@@ -1,0 +1,22 @@
+{
+  "name": "gulp-put",
+  "version": "0.0.1",
+  "author": "Jonathan Apodaca",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js", "LICENSE", "README.md"
+  ],
+  "repository": "jrop/gulp-put",
+  "dependencies": {
+    "gulp": "3.x",
+    "gulp-util": "3.x",
+    "mkdirp": "0.x",
+    "through2": "2.x"
+  },
+  "devDependencies": {
+    "gulp-babel": "^5.1.0",
+    "gulp-print": "^1.1.0",
+    "rimraf": "^2.4.0"
+  }
+}
