@@ -1,5 +1,7 @@
 #gulp-put
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/gulp-put.svg)](https://greenkeeper.io/)
+
 ##Use
 
 This plugin provides an intuitive interface for copying files to a destination directory, while preserving the original directory-structure (relative to `process.cwd()`).  Use like:
